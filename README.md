@@ -253,7 +253,8 @@ springboot下统一处理异常方法，即，在请求没到达对应controller
 springboot內置的日志管理模块，使用slf4j
 
 ## quick-activemq
-springboot 整合activemq 服务 非常简单，更负责的配置可以自定义containerFactory
+- springboot 整合activemq 服务 非常简单，更负责的配置可以自定义containerFactory
+- 添加导出消息队列消息但不消费的方法(慎重使用，不知是否会对mq服务增加压力)
 
 ## quick-docker
 
@@ -282,6 +283,12 @@ springboot 整合activemq 服务 非常简单，更负责的配置可以自定�
 单独使用feign做为请求http接口的客户端工具
 
 (后面会持续更新)
+
+## quick-config-encrypt
+配置加密功能(待完成)
+
+## quick-jwt
+参考https://github.com/murraco/spring-boot-jwt 添加的jwt模块，实现网站的简单鉴权
 
 
 
